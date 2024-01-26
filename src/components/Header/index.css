@@ -1,0 +1,99 @@
+.header {
+    margin-left: 100px;
+    padding-top: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.header p {
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.header ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 110px;
+}
+
+.header ul li {
+    list-style: none;
+    margin-right: 41px;
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.header ul li:hover{
+    color: aqua;
+}
+
+.header .home {
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header ul li a {
+    display: flex;
+    padding: 15px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #FFF;
+    text-decoration: none;
+    color: #1875FF;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 4px 4px 73px 5px rgba(34, 60, 80, 0.2);
+
+}
+
+.header ul li a:hover{
+    background-color: rgb(213, 114, 114);
+    color: white;
+}
+
+.header button {
+    margin-left: 378px;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #FFF;
+    color: #1875FF;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 73px 5px rgba(230, 101, 20, 0.2);
+    transition: all 0.5s;
+}
+
+.header button:hover{
+    background-color: tomato;
+    color: white;
+}

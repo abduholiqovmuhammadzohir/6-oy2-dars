@@ -1,0 +1,13 @@
+.card{
+    background-image: url(../img/white.png);
+    width: 467px;
+    height: 812px;
+    margin-left:130px;
+}
+.cardimg{
+    background-image: url(../img/girl.png);
+    width: 421px;
+    height: 758px;
+    margin-top: 54px;
+    margin-left: 13px;
+}

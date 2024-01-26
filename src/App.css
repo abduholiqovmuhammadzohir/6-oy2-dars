@@ -1,0 +1,13 @@
+.container {
+    background-image: url(../src/components/img/k.png);
+    width: 1440px;
+    height: 1024px;
+    background-size: 100%;
+    padding: auto;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    margin-top: 82px;
+    margin-left: 96px;
+}

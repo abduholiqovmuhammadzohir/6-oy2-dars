@@ -1,0 +1,48 @@
+.text {
+    margin-top: 100px;
+}
+
+.text h2 {
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 575px;
+    height: 160px;
+}
+
+.text p {
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -43px;
+    margin-bottom: 50px;
+}
+
+.text button {
+    display: inline-flex;
+    padding: 15px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #FFF;
+    color: #1875FF;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.text button:hover{
+    background-color: brown;
+    color: white;
+}
